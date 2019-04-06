@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "basic-example",
+  "scripts": {
+    "dev": "importmap serve"
+  },
+  "author": "JongChan Choi <jong@chan.moe>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-es": "^4.17.11"
+  },
+  "devDependencies": {
+    "importmap": "0.0.0"
+  }
+}

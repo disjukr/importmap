@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>import map test</title>
+        <!-- <script type="importmap" src="/import-map.json"></script> -->
+        <script type="importmap">
+            {
+                "imports": {
+                    "lodash-es": "/node_modules/lodash-es/lodash.js"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <script type="module">
+            import * as _ from 'lodash-es';
+            for (const key of _.take(_.shuffle(_.keys(_)), 5)) {
+                console.log(key);
+            }
+        </script>
+    </body>
+</html>
