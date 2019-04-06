@@ -1,0 +1,31 @@
+{
+  "name": "importmap",
+  "version": "0.0.0",
+  "description": "import map util",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disjukr/importmap.git"
+  },
+  "keywords": [
+    "import",
+    "map",
+    "module"
+  ],
+  "author": "JongChan Choi <jong@chan.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/disjukr/importmap/issues"
+  },
+  "homepage": "https://github.com/disjukr/importmap#readme",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "serve-static": "^1.13.2",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0"
+  }
+}
