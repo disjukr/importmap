@@ -5,8 +5,8 @@
 
 ## usage
 ```sh
-npm install jquery
-npx importmap # prints {"imports":{"jquery":"/node_modules/jquery/dist/jquery.js"}}
+npm install lodash-es
+npx importmap # prints {"imports":{"lodash-es":"/node_modules/lodash-es/lodash.js"}}
 ```
 
 
